@@ -2,6 +2,7 @@
 
 /**
  * binary_tree_depth - Func. to calculate depth of a node in a binary tree
+ * A.K.A. No. of nodes in btree
  * @tree: Pointer to the node in binary tree to measure the depth of it
  * Return: Depth of node in b-tree or 0 if tree is NULL
  */
