@@ -13,7 +13,7 @@ size_t binary_tree_size(const binary_tree_t *tree)
 	size_t btree_size = 0;
 
 	if (tree == NULL) /* condition to end recursion */
-		return (0);	
+		return (0);
 	/*continue recursion & cacluating size*/
 	btree_size += 1;
 	btree_size += binary_tree_size(tree->right);
